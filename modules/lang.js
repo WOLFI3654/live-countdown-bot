@@ -1,28 +1,6 @@
 const languages = {
   en: {
-    longStrings: {
-      lessThanAMinute: "less than a minute",
-      minute: "minute",
-      hour: "hour",
-      day: "day",
-      week: "week",
-      and: "and",
-    },
-    shortStrings: {
-      lessThanAMinute: "< 1min",
-      minute: "min",
-      hour: "hr",
-      day: "day",
-      week: "wk",
-      and: "&",
-    },
-    timeLeft: "Time left",
-    countdownDone: "Countdown done",
-    inlineNoMinutes: "no minutes",
-    countingDown: "Counting down",
-  },
-  de: {
-    longStrings: {
+     longStrings: {
       lessThanAMinute: "weniger als eine Minute",
       minute: "Minute",
       minutes: "Minuten",
@@ -34,9 +12,18 @@ const languages = {
       weeks: "Wochen",
       and: "und",
     },
+    shortStrings: {
+      lessThanAMinute: "< 1min",
+      minute: "min",
+      hour: "hr",
+      day: "day",
+      week: "wk",
+      and: "&",
+    },
     timeLeft: "Verbleibende Zeit",
     countdownDone: "Countdown abgeschlossen",
     inlineNoMinutes: "keine Minuten",
+    countingDown: "Counting down",
   },
   es: {
     longStrings: {
